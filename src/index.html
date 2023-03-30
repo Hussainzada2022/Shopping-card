@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header">
+                <div class="cart__count">
+                    <i class="fa fa-shopping-cart"></i>
+                    <div class="total__counter">0</div>
+                </div>
+                <div class="logo">
+                    <h1>Super market</h1>
+                </div>
+            </div>
+            <div class="cart">
+                <div class="cart__items">
+                    <div class="check_out">
+                        <h4 class="total-price">Total:</h4>
+                        <h4 class="total__cost">0</h4>
+                        $
+                        <button class="btn check_out_btn btn__remove">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <div class="products">
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="1">
+                <img src='/src/img/1.jpeg' id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">90</h5>
+                    <span>$</span>
+                </div>
+                <div class="btn_add_to_cart">Add to card</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="2">
+                <img src="/src/img/2__.png" id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">80</h5>
+                    <span>$</span>
+                </div>
+                <div class="btn_add_to_cart">Add to card</div>
+            </div>
+            <div class="product__element">
+                <input type="hidden" id="product_id" value="3">
+                <img src="/src/assets/img/2__.png" id="image" alt="">
+                <h4 class="product__name">nike color</h4>
+                <div class="many">
+                    <h5 class="product__price">60</h5>
+                    <span>$</span>
+                </div>
+                <div class="btn_add_to_cart">Add to cart</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
